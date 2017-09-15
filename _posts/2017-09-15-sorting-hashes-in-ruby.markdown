@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sorting hashes in Ruby"
-date:   2017-09-14 23:43:07 +0200
+date:   2017-09-15 23:43:07 +0200
 categories: ruby hashes
 ---
 
