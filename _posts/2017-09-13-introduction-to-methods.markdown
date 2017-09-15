@@ -5,7 +5,10 @@ date:   2017-09-13 22:33:07 +0200
 categories: ruby methods introduction
 ---
 
-# Returns nil
+Methods in Ruby always, implicitly or explicitly, return values.
+
+
+# A method that implicitly returns nil
 
 {% highlight ruby %}
 def output_value(value)
@@ -15,6 +18,18 @@ end
 
 {% highlight ruby %}
 output_value(2)
+{% endhighlight %}
+
+# A method that explicitly returns a value
+
+{% highlight ruby %}
+def calculate_value(x,y)
+  x + y
+end
+{% endhighlight %}
+
+{% highlight ruby %}
+calculate_value(1,1)
 {% endhighlight %}
 
 # References
