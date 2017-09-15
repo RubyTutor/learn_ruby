@@ -65,7 +65,7 @@ puts "Sort by age using vales and sort methods " + people.values.sort.inspect
 {% endhighlight %}
 
 
-# Using sort_by method
+### Using sort_by method
 
 How to display both keys and values and do a sort by value/age?
 We use sort and sort_by
