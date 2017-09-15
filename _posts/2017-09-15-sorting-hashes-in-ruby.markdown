@@ -16,13 +16,15 @@ people = {
 }
 {% endhighlight %}
 
-People object is a Hash, let's check that.
+People object is a Hash, let's make sure that is true.
+
+#### We check what class is the people object
 
 {% highlight ruby %}
 puts people.class
 {% endhighlight %}
 
-or with
+#### We check if people object is a Hash
 
 {% highlight ruby %}
 people.is_a?Hash
