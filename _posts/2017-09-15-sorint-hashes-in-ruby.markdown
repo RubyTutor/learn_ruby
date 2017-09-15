@@ -80,7 +80,7 @@ puts "Sort by value and show name and age " + people.sort_by { |name, age| age }
 {% endhighlight %}
 
 
-### Sort by return the list as an Array
+### Sort_by returns the list as an Array
 
 {% highlight ruby %}
 people.sort_by { |name, age| age }.class
