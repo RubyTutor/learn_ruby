@@ -2,11 +2,12 @@
 layout: post
 title:  "Map vs Each"
 date:   2017-09-14 23:43:07 +0200
-categories: ruby hashes
+categories: ruby map each
 ---
 
 {% highlight ruby %}
 toppings = %w(pepperoni mushroom bacon pineapple)
+{% endhighlight %}
 
 {% highlight ruby %}
 def pizza(toppings)
