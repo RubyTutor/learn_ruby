@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sorting hashes in Ruby"
+title:  "Map vs Each"
 date:   2017-09-14 23:43:07 +0200
 categories: ruby hashes
 ---
