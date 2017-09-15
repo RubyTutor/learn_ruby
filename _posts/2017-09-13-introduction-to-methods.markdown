@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introduction to Methods"
+title:  "Introduction to Methods in Ruby"
 date:   2017-09-13 22:33:07 +0200
 categories: ruby methods introduction
 ---
