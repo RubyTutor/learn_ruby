@@ -5,6 +5,8 @@ date:   2017-09-14 23:43:07 +0200
 categories: ruby hashes
 ---
 
+We will create a Hash object named people containing names as the keys and ages
+as the values.
 
 {% highlight ruby %}
 people = {
@@ -14,11 +16,18 @@ people = {
 }
 {% endhighlight %}
 
-people object is a Hash, we can check that with
+People object is a Hash, let's check that.
 
 {% highlight ruby %}
 puts people.class
 {% endhighlight %}
+
+or with
+
+{% highlight ruby %}
+people.is_a?Hash
+{% endhighlight %}
+
 
 # Sort by name
 
