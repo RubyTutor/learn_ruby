@@ -64,7 +64,7 @@ def pizza4(toppings)
 end
 {% endhighlight %}
 
-# or alternative wat to write blocks
+### Same example as above just using inline blocks
 
 {% highlight ruby %}
 def pizza5(toppings)
